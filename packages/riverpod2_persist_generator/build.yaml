@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      riverpod2_persist_generator:
+        generate_for:
+          - lib/**/*.dart
+
+builders:
+  riverpod2_persist_generator:
+    import: "package:riverpod2_persist_generator/builder.dart"
+    builder_factories: ["riverpod2PersistBuilder"]
+    build_extensions: {".dart": [".persist.g.part"]}
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
