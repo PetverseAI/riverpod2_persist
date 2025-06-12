@@ -1,0 +1,2 @@
+# Riverpod2_persist_generator
+Build_runner generator for riverpod2_persist.

@@ -1,0 +1,11 @@
+name: workspace
+publish_to: none
+environment:
+  sdk: ^3.5.0
+
+workspace:
+  - examples/example
+  - packages/riverpod2_persist
+  - packages/riverpod2_persist_annotation
+  - packages/riverpod2_persist_generator
+  - packages/riverpod2_persist_storage

@@ -1,0 +1,16 @@
+name: riverpod2_persist_annotation
+description: riverpod2_persist annotation package
+version: 1.0.0
+repository: https://github.com/PetverseAI/orca_app/riverpod2_persist
+
+environment:
+  sdk: ^3.5.0
+
+resolution: workspace
+
+# Add regular dependencies here.
+dependencies:
+  riverpod: ^2.6.1
+
+dev_dependencies:
+  lints: ^5.0.0

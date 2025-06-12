@@ -1,0 +1,26 @@
+name: example
+description: riverpod2_persist use demo
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+resolution: workspace
+
+# Add regular dependencies here.
+dependencies:
+  meta: ^1.7.0
+  riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  riverpod2_persist: 1.0.0
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  riverpod2_persist_generator: 1.0.0
+  riverpod_generator: ^2.0.0
+  json_serializable: ^6.9.0
+  build_runner: ^2.4.2
