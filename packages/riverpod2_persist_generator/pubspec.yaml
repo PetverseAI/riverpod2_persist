@@ -1,7 +1,7 @@
 name: riverpod2_persist_generator
 description: riverpod2_persist generator package
-version: 1.0.0
-repository: https://github.com/PetverseAI/orca_app/riverpod2_persist
+version: 1.0.1
+repository: https://github.com/PetverseAI/riverpod2_persist
 
 environment:
   sdk: ^3.5.0
@@ -19,7 +19,7 @@ dependencies:
   riverpod_analyzer_utils: ^0.5.6
   riverpod_generator: ^2.6.1
   source_gen: ^1.5.0
-  riverpod2_persist_annotation: 1.0.0
+  riverpod2_persist_annotation: 1.0.1
 
 dev_dependencies:
   lints: ^5.0.0

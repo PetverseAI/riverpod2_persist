@@ -1,7 +1,7 @@
 name: riverpod2_persist_annotation
 description: riverpod2_persist annotation package
-version: 1.0.0
-repository: https://github.com/PetverseAI/orca_app/riverpod2_persist
+version: 1.0.1
+repository: https://github.com/PetverseAI/riverpod2_persist
 
 environment:
   sdk: ^3.5.0
