@@ -5,8 +5,9 @@ PACKAGES=("riverpod2_persist_annotation" "riverpod2_persist_generator" "riverpod
 for pkg in "${PACKAGES[@]}"
 do
   echo "Publishing $pkg..."
+  export PUB_HOSTED_URL=https://pub.dev
   cd packages/$pkg
-  fvm flutter pub publish --dry-run --server=https://pub.dev || exit 1
-  fvm flutter pub publish --server=https://pub.dev || exit 1
+  # fvm flutter pub publish --dry-run || exit 1
+  flutter pub publish || exit 1
   cd ../..
 done
